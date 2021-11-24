@@ -10,16 +10,22 @@
     box-sizing: border-box;
 }
 body {
+    orientation: landscape;
     width: 1753px;
-    height: 1240px;
+    height: 1387px;
+    margin: 0in 0in 0in 0in;
     background: #F8FBFF;
 }
 
-// .container {
-//     width: 1600px;
-//     padding: 0 15px;
-//     margin: 0 auto;
-// }
-
 
 @import 'blocks/sertificate';
+
+@media print {
+    body {
+        orientation: landscape;
+        width: 1753px;
+        height: 1387px;
+        margin: 0in 0in 0in 0in;
+        background: #F8FBFF;
+    }
+}
