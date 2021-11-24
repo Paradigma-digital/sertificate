@@ -7,17 +7,19 @@
     font-style: normal;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     width: 1753px;
     height: 1240px;
+    background: #F8FBFF;
 }
 
-.container {
-    width: 1600px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+// .container {
+//     width: 1600px;
+//     padding: 0 15px;
+//     margin: 0 auto;
+// }
 
 
 @import 'blocks/sertificate';
