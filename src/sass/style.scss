@@ -21,11 +21,10 @@ body {
 @import 'blocks/sertificate';
 
 @media print {
-    body {
+    @page {
         orientation: landscape;
         width: 1753px;
         height: 1387px;
         margin: 0in 0in 0in 0in;
-        background: #F8FBFF;
     }
 }
