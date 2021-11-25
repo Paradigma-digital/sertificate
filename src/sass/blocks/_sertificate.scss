@@ -108,17 +108,15 @@
         &_place {
             margin-top: 74px;
             position: relative;
-            &>.place_value {
+            .place_value {
                 font-weight: 600;
                 font-size: 250px;
                 line-height: 183px;
                 color: #F8FBFF;
                 margin-left: -12px;
             }
-            &>.place_info {
-                position: absolute;
-                left: 630px;
-                top: 66px;
+            .place_info {
+                vertical-align: bottom;
                 padding-left: 28px;
                 font-size: 32px;
                 line-height: 45px;
